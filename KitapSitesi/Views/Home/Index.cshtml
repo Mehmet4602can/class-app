@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Kitaplar</h1>
+
+    <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+    <img src="~/imges/metro.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">@ViewBag.kitap.KitapAd</h5>
+                    <p class="card-text">@ViewBag.kitap.KitapId</p>
+                    <p class="card-text">@ViewBag.kitap.SayfaSayisi</p>
+                    <p class="card-text">@ViewBag.kitap.Yazar</p>
+                    <p class="card-text">@ViewBag.kitap.Tur</p>
+
+        <p class="card-text"><small class="text-body-secondary"><a href="#">Daha Fazla Bilgi</a></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+</div>
